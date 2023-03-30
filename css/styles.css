@@ -74,8 +74,8 @@ body {
 	overflow: hidden;
 }
 .section {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 96px;
+	padding-bottom: 96px;
 	text-align: center;
 }
 
@@ -489,8 +489,8 @@ body {
 /* Footer */
 
 .section.footer {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 96px;
+	padding-bottom: 96px;
 }
 .studio-white {
 	color: var(--hero-text);
@@ -501,23 +501,27 @@ body {
 .footer-text {
 	color: var(--accent);
 	width: 264px;
-	text-align: left;
+	text-align: justify;
 	margin-top: 16px;
 }
 .big.footer.container {
 	display: flex;
-	/* gap: 120px; */
-	/* position: relative; */
-	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	gap: 72px;
 }
 .first-footer-container {
-	margin-left: 0;
-	margin-right: 90px;
-	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer.logo {
+	margin: 0 auto;
 }
 .secondary-footer-container {
-	margin-left: 0;
-	margin-right: 65px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .footer-social-subtitle {
 	font-weight: 500;
@@ -526,7 +530,7 @@ body {
 	letter-spacing: 0.02em;
 
 	color: var(--light);
-	text-align: left;
+	text-align: center;
 	margin-bottom: 16px;
 }
 .footer-social-list {
@@ -558,16 +562,16 @@ body {
 .footer-social-icon {
 }
 .third-footer-container {
-	/* position: absolute;
-	top: 0;
-	right: 0;
-	margin: 0; */
+	min-width: 398px;
+	min-height: 136px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .footer-form {
-	display: block;
-	position: relative;
-	min-width: 453px;
-	min-height: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .footer-subscribe-subtitle {
 	font-weight: 500;
@@ -575,16 +579,17 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--light);
-	text-align: left;
-	position: absolute;
+	text-align: center;
+	/* position: absolute;
 	top: 0;
-	left: 0;
+	left: 0; */
 }
 .subscribe-input {
-	position: absolute;
+	/* position: absolute;
 	bottom: 0;
-	left: 0;
-	width: 264px;
+	left: 0; */
+	margin: 16px 0;
+	width: 398px;
 	height: 40px;
 	padding: 8px 16px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
@@ -613,9 +618,9 @@ body {
 	padding: 8px 24px;
 	gap: 16px;
 
-	position: absolute;
+	/* position: absolute;
 	right: 0;
-	bottom: 0;
+	bottom: 0; */
 	background: var(--primary-brand);
 	border-radius: 4px;
 	border: none;

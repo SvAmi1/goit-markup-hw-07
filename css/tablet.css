@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px), (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
 	.container {
 		max-width: 766px;
 		align-items: center;
@@ -7,5 +7,28 @@
 	.section {
 		padding-top: 96px;
 		padding-bottom: 96px;
+	}
+
+	/* Footer */
+	.footer-social-subtitle {
+		text-align: left;
+	}
+	.footer-subscribe-subtitle {
+		position: absolute;
+		top: 0;
+		left: 0;
+		text-align: left;
+	}
+	.subscribe-input {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 264px;
+		margin: 0;
+	}
+	.subscribe-btn {
+		position: absolute;
+		right: 0;
+		bottom: 0;
 	}
 }
