@@ -48,7 +48,7 @@ body {
 	color: var(--text);
 }
 .container {
-	max-width: 1158px;
+	width: 100%;
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -260,21 +260,15 @@ body {
 	min-width: 264px;
 }
 
-/* Section 2 */
-
-.activities {
-	padding-top: 0;
-}
-.activities-title {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.1;
-	color: var(--dark);
-	margin-bottom: var(--title-margin-bottom);
-}
 .activities-list {
 }
 .activities-item {
+}
+
+/* Section 2 */
+
+.activities {
+	display: none;
 }
 
 /* Section 3 */

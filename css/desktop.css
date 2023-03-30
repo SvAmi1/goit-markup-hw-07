@@ -1,0 +1,28 @@
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1158px;
+	}
+
+	.section {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+	/* HERO */
+
+	/* Section 1 */
+
+	/* Section 2 */
+
+	.activities {
+		display: block;
+		padding-top: 0;
+	}
+	.activities-title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1.1;
+		color: var(--dark);
+		margin-bottom: var(--title-margin-bottom);
+	}
+}
