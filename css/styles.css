@@ -562,8 +562,8 @@ body {
 .footer-social-icon {
 }
 .third-footer-container {
-	min-width: 398px;
-	min-height: 136px;
+	/* min-width: 398px;
+	min-height: 136px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
