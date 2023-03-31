@@ -508,7 +508,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 72px;
+	/* gap: 72px; */
 }
 .first-footer-container {
 	display: flex;
@@ -522,6 +522,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 72px 0;
 }
 .footer-social-subtitle {
 	font-weight: 500;
