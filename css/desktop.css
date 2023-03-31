@@ -31,6 +31,7 @@
 	.section.footer {
 		padding-top: 100px;
 		padding-bottom: 100px;
+		/* max-width: 1158px; */
 	}
 	.footer-text {
 		text-align: left;
@@ -38,6 +39,8 @@
 	.big-footer-container {
 		flex-direction: row;
 		justify-content: space-between;
+		/* max-width: 1158px; */
+		
 	}
 	.first-footer-container {
 		margin-left: 0;
