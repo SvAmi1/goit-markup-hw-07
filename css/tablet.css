@@ -8,6 +8,16 @@
 		padding-top: 96px;
 		padding-bottom: 96px;
 	}
+	/* Hero */
+	.hero {
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
+		padding: 112px 0 108px 0;
+	}
+	.hero-title {
+		font-size: 56px;
+		max-width: 496px;
+		margin-bottom: 40px;
+	}
 
 	/* Section 1 */
 
@@ -70,9 +80,10 @@
 		justify-content: start;
 		gap: 24px;
 		position: relative;
+		max-width: 552px;
 		height: 262px;
 		padding-top: 0;
-		margin-left: 108px;
+		/* margin-left: 108px; */
 	}
 	.first-footer-container {
 		/* margin-left: 108px; */
