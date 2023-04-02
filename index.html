@@ -24,33 +24,45 @@
 		<link rel="stylesheet" href="./css/desktop.css" />
 	</head>
 	<body>
-		<!-- Navigation -->
+		<!--Header-----Navigation -->
 		<header class="header">
 			<div class="container header-container">
-				<nav class="site-nav nav-container">
-					<a href="./index.html" class="logo web">Web<span class="logo studio">Studio</span></a>
-					<ul class="header-list">
-						<li class="header-item">
-							<a href="" class="header-link link current">Studio</a>
-						</li>
-						<li class="header-item">
-							<a href="./portfolio.html" class="header-link link">Portfolio</a>
-						</li>
-						<li class="header-item">
-							<a href="" class="header-link link">Contacts</a>
-						</li>
-					</ul>
-				</nav>
-				<address class="address">
-					<ul class="address-list">
-						<li class="address-item">
-							<a href="mailto:info@devstudio.com" class="address-link link">info@devstudio.com</a>
-						</li>
-						<li class="address-item">
-							<a href="tel:+110001111111" class="address-link link">+11 (000) 111-11-11</a>
-						</li>
-					</ul>
-				</address>
+				<a href="./index.html" class="logo web">Web<span class="logo studio">Studio</span></a>
+				<button type="button" class="burger-btn js-open-menu">
+					<svg class="burger-icon" width="32" height="22">
+						<use href="./images/symbol-defs.svg#icon-burger"></use>
+					</svg>
+				</button>
+				<div class="mobile-menu-wrap">
+					<nav class="site-nav nav-container">
+						<button type="button" data-modal-close class="menu-close">
+							<svg class="modal-icon" width="8" height="8">
+								<use href="./images/symbol-defs.svg#icon-close"></use>
+							</svg>
+						</button>
+						<ul class="header-list">
+							<li class="header-item">
+								<a href="" class="header-link link current">Studio</a>
+							</li>
+							<li class="header-item">
+								<a href="./portfolio.html" class="header-link link">Portfolio</a>
+							</li>
+							<li class="header-item">
+								<a href="" class="header-link link current-mob">Contacts</a>
+							</li>
+						</ul>
+					</nav>
+					<address class="address">
+						<ul class="address-list">
+							<li class="address-item">
+								<a href="mailto:info@devstudio.com" class="address-link link">info@devstudio.com</a>
+							</li>
+							<li class="address-item">
+								<a href="tel:+110001111111" class="address-link link">+11 (000) 111-11-11</a>
+							</li>
+						</ul>
+					</address>
+				</div>
 			</div>
 		</header>
 		<main>

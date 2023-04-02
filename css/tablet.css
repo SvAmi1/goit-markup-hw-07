@@ -11,9 +11,9 @@
 
 	/* Navigation  */
 	.header {
-		/* display: flex;
+		display: flex;
 		align-items: center;
-		justify-content: space-between; */
+		justify-content: space-between;
 	}
 	.secondary.header {
 		border-bottom: 1px solid #e7e9fc;
@@ -26,10 +26,18 @@
 		align-items: center;
 		margin: 0;
 	}
+	.burger-btn {
+		display: none;
+	}
+	.menu-close {
+		display: none;
+	}
 	.site-nav {
 	}
 	.nav-container {
 		display: flex;
+		flex-direction: column;
+		gap: 40px;
 		margin-right: 118px;
 	}
 	.logo {
