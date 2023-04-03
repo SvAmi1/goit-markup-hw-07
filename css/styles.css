@@ -101,7 +101,7 @@ body {
 	.mobile-menu-wrap {
 		display: flex;
 		flex-direction: column;
-		/* gap: 248px; */
+		min-width: 318px;
 		width: 100%;
 		height: 100%;
 		position: fixed;
@@ -172,7 +172,6 @@ body {
 	.current-mob {
 		color: var(--pressed-state);
 	}
-
 	.address-container {
 		margin-bottom: 48px;
 	}
@@ -199,9 +198,7 @@ body {
 	.address-link:focus {
 		color: var(--pressed-state);
 	}
-
 	.tel {
-		/* display: flex; */
 		font-weight: 600;
 		font-size: 36px;
 		line-height: 1.11;
@@ -666,8 +663,6 @@ body {
 .footer-social-icon {
 }
 .third-footer-container {
-	/* min-width: 398px;
-	min-height: 136px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -687,8 +682,7 @@ body {
 }
 .subscribe-input {
 	margin: 16px 0;
-	/* width: 100%; */
-	width: 398px;
+	width: 318px;
 	height: 40px;
 	padding: 8px 16px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
@@ -758,6 +752,7 @@ body {
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
+	min-width: 318px;
 	width: 408px;
 	height: 576px;
 	padding: 72px 24px 24px;
@@ -830,6 +825,7 @@ body {
 }
 .form-textarea {
 	display: block;
+	/* min-width: 318px; */
 	width: 360px;
 	height: 120px;
 	resize: none;
