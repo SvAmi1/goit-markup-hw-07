@@ -11,6 +11,8 @@
 	.header-container {
 		margin: 0 auto;
 	}
+	.header-link {
+	padding-bottom: 24px;}
 	.nav-container {
 		margin-right: 332px;
 	}

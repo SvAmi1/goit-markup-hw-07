@@ -86,6 +86,11 @@ body {
 }
 /* Mobile Only */
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.header-container {
+		display: flex;
+		justify-content: space-between;
+		height: 70px;
+	}
 	.burger-btn {
 		background-color: transparent;
 		border: none;
@@ -173,11 +178,18 @@ body {
 	}
 	.address-list {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 		gap: 40px;
+	}
+	.address-item {
+		display: flex;
 	}
 	.address-link {
 		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1.2;
+		letter-spacing: 0.02em;
 		color: var(--text);
 		transition-property: color;
 		transition-duration: 250ms;
@@ -189,13 +201,14 @@ body {
 	}
 
 	.tel {
+		/* display: flex; */
 		font-weight: 600;
 		font-size: 36px;
 		line-height: 1.11;
 		color: var(--pressed-state);
-		order: 100;
 	}
 	.menu-sotial-wrap {
+		display: flex;
 	}
 	.menu-social-list {
 		display: flex;
