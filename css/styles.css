@@ -238,22 +238,6 @@ body {
 	}
 }
 
-.header {
-	/* display: flex;
-	align-items: center;
-	justify-content: space-between; */
-}
-/* 
-.header-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-} */
-
-.nav-container {
-	/* display: flex;
-	margin-right: 332px; */
-}
 .logo {
 	font-family: var(--secondary-font);
 	font-weight: 800;
@@ -276,34 +260,12 @@ body {
 .studio {
 	color: var(--dark);
 }
-.header-list {
-	/* display: flex;
-	gap: 40px;
-	margin: 0;
-	list-style: none;
-	align-items: center; */
-}
+
 .header-link {
 	font-weight: 500;
-	/* color: var(--dark); */
-	/* display: block;
-	padding-top: 24px;
-	padding-bottom: 24px;
-
-	position: relative; */
 }
 .header-link:is(:hover, :focus) {
 	color: var(--pressed-state);
-}
-
-.address {
-}
-.address-list {
-	/* display: flex;
-	align-items: center;
-	gap: 40px; */
-}
-.address-item {
 }
 
 /* Hero */
